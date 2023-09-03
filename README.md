@@ -34,7 +34,7 @@
           "HTTP_SERVER_HOST": "x.x.x.x",
       }
     ```
-  3. 下载并覆盖 [domainlist.json](https://github.com/Halopipe/halopipe-gfwlist/blob/main/domainlist.json)
+  3. 下载并覆盖 [domainlist.json](https://github.com/Halopipe/halopipe-gfwlist/blob/main/domainlist.json) 文件, 可自行更新该文件.
   4. 启动本地和服务端代理程序
     ```
       // 客户端
