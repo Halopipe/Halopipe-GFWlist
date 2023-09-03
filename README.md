@@ -1,4 +1,4 @@
-# halopipe-gfwlist
+# Halopipe-gfwlist
 *翻墙-科学上网-搭梯子, 简单小巧的自建安全代理工具.*
 
 #### 免费的和非独享的最大的问题是:
