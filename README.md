@@ -17,34 +17,7 @@
 
 #### 如何搭建私有安全代理:
 - 在GFW之外的任意地区有一台代理服务器. ([阿里云轻量应用服务器](https://www.aliyun.com/product/swas?spm=5176.28047174.J_4VYgf18xNlTAyFFbOuOQe.36.133d7e0eLPwR9q&scm=20140722.X_data-d4b68a29ba28f53e56fa._.V_1) 香港/新加坡 ¥24/月)
-- 获取并部署 [Halopipe](https://halopipe.com/) 代理.
-```
-    // 初始化CA证书, AES密钥等
-    $ .\bin\halopipe-win-x64.exe init
-```
-```
-    // 更改配置
-    "PROXY_HTTP": {
-        "HTTP_GETWAY_PORT": 8888,
-        "HTTP_GLOBAL_PORT": 8889,
-            
-        "HTTP_SERVER_PORT": 8886,
-        "HTTP_SERVER_HOST": "x.x.x.x",
-    }
-    
-    // 客户端
-    $ .\bin\halopipe-win-x64.exe httpc
-
-    // 服务端
-    $ ./bin/halopipe-linux-x64 https
-```
-```
-    // 后台启动后需回车确认, 否则会随终端结束而被杀掉.
-    $ nohup ./bin/halopipe-linux-x64 https & echo $! > https.pid
-    
-    // 杀后台进程
-    $ kill -9 `cat https.pid`
-```
+- 获取并启动 [Halopipe](https://halopipe.com/) 代理.
 
 
 
