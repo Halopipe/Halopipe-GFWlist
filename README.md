@@ -18,7 +18,7 @@
 #### 如何搭建私有安全代理:
 - 在GFW之外的任意地区有一台代理服务器. ([阿里云轻量应用服务器](https://www.aliyun.com/product/swas?spm=5176.28047174.J_4VYgf18xNlTAyFFbOuOQe.36.133d7e0eLPwR9q&scm=20140722.X_data-d4b68a29ba28f53e56fa._.V_1) 香港/新加坡 ¥24/月)
 
-### [[Halopipe]自建安全代理](https://store.cocos.com/app/detail/5253)
+### [[Halopipe]自建安全代理](https://halopipe.com/)
 
 
 
