@@ -7567,6 +7567,12 @@ function FindProxyForURL(url, host) {
         return 'PROXY 127.0.0.1:8888';
     if (shExpMatch(host,'nintendium.com')||shExpMatch(host,'*.nintendium.com'))
         return 'PROXY 127.0.0.1:8888';
+    if (shExpMatch(host,'nintendo.co.jp')||shExpMatch(host,'*.nintendo.co.jp'))
+        return 'PROXY 127.0.0.1:8888';
+    if (shExpMatch(host,'nintendo.com')||shExpMatch(host,'*.nintendo.com'))
+        return 'PROXY 127.0.0.1:8888';
+    if (shExpMatch(host,'nintendo.com.hk')||shExpMatch(host,'*.nintendo.com.hk'))
+        return 'PROXY 127.0.0.1:8888';
     if (shExpMatch(host,'nintendo.net')||shExpMatch(host,'*.nintendo.net'))
         return 'PROXY 127.0.0.1:8888';
     if (shExpMatch(host,'ninth.biz')||shExpMatch(host,'*.ninth.biz'))
