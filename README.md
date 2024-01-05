@@ -15,13 +15,13 @@
 * 它是一个代理服务, 提供点对点双向加密安全通信管道.
 * 支持系统: macos-x64 | linux-x64 | win-x64.
 * 它可稳定运行于局域网的某台设备上, 并为其他同网设备提供服务.
-* 支持Nintendo switch的网络代理, 亲测可用.
+* 支持Nintendo switch的网络代理.
 
 #### 如何搭建私有安全代理:
 - 在GFW之外的任意地区有一台代理服务器. ([阿里云轻量应用服务器](https://www.aliyun.com/product/swas?spm=5176.28047174.J_4VYgf18xNlTAyFFbOuOQe.36.133d7e0eLPwR9q&scm=20140722.X_data-d4b68a29ba28f53e56fa._.V_1) 香港/新加坡 ¥24/月)
 - Switch设置网络代理, 使用HTTP端口, 本工具可解决设置代理后测试连接失败和打不开商店的情况.
 
-### [[Halopipe]自建安全代理](https://halopipe.com/)
+### [[Halopipe]自建安全代理](https://halopipe.com/archives/mcCWd76M)
 
 
 
